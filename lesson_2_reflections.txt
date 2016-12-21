@@ -1,0 +1,7 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: When you initialize a repository, it creates a new git repository in the current directory. You need this to begin keeping track of changes to your project.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area is different from the WD and the repo because it sits in between them, as a temporary measure. The staging area is valuable because it allows you to plan out which files will be committed.
