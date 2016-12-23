@@ -17,3 +17,7 @@ A: Branches would be helpful when you want to work on a different version of you
 Q: How do the diagrams help you visualize the branch structure?
 
 A: By providing a visual depiction of the branches(?).
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The tip of each branch is compared to the other, and also with the last commit before the split (into two branches) occurred. This way, 'git' can determine how to merge the two files (from the tips) together in such a way that only the code that is supposed to remain actually makes it into the newest commit (the successfuly merged file). Now the commits from each branch are included in the new branches history, and sorted via time stamp.
