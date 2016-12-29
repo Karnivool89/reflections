@@ -5,3 +5,9 @@ A: When you want to collaborate or immediately share your work.
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A: If you are collaborating, you may not want to pull an updated file unknowingly because it may interfere if you are already working on that file.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: A fork is a copy of a repo that can be edited without affecting the original. A clone is a copy of a repo that can affect the original. A branch is a split in the history of a repo, meaning from file X the next commit will be X' or X'', both having X as their parent but heading on separate paths.
+
+A fork would be used if you wanted to change or add to someone's project without the intention of overwriting their work, while a clone would be used if a collaboration was intended. A branch is used when you want to write some experimental code without affecting the stable version, or for other reasons that would keep a fresh lineage of files.
