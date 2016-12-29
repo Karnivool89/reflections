@@ -19,3 +19,7 @@ A: To remain up to date so you can avoid future merge conflicts or potentially u
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A: Collaboration using Dropbox would be possible, for instance. It would be much easier to learn how to use, but much harder to keep track of the changes made.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: Working directly in a master is certainly less complicated, but a separate branch allows you to double-check your work via a collaborator before merging with the master branch. This method will allow you to limit the mistakes that make it to the master branch.
