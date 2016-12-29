@@ -15,3 +15,7 @@ A fork would be used if you wanted to change or add to someone's project without
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: To remain up to date so you can avoid future merge conflicts or potentially unnecessary branching.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: Collaboration using Dropbox would be possible, for instance. It would be much easier to learn how to use, but much harder to keep track of the changes made.
